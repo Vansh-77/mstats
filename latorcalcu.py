@@ -1,5 +1,5 @@
-import random , csv , datetime ,time
-file = "C:/Users/vansh/OneDrive/Desktop/VB07/mstats/latorcalcu.csv"
+import random , csv , datetime ,time ,os
+file = f"{os.getcwd()}/latorcalcu.csv"
 def csvwrite(tnum , canswer , ttime):
     acc = round(canswer/tnum * 100 , 3)
     avgtime = round(ttime / tnum , 2)
