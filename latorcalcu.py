@@ -38,9 +38,4 @@ def latorcalcu(n):
 
 
 n = int(input("enter no. of questions: "))        
-latorcalcu(n)
-
-
-
-        
-        
+latorcalcu(n)     
